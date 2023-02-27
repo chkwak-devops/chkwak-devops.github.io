@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "곽선생"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "저는 깃헙 블로그를 사랑합니다. # I am an **amazing** person."
+  bio              : "The records left behind will come back as strength someday". # I am an **amazing** person."
   location         : "seoul, Korea"
   email            : 
   links:
