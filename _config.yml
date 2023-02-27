@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast"  # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+locale                   : "ko-KR"
+title                    : "곽선생 테크노트"
+title_separator          : "|"
+subtitle                 : "하루하루 천천히 성장하자"# site tagline that appears below site title in masthead
+name                     : "곽선생"
+description              : "남긴 기록은 언젠가 힘이되서 돌아온다"
 url                      : "https://chkwak-devops.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,51 +104,52 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "곽선생"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "저는 깃헙 블로그를 사랑합니다. # I am an **amazing** person."
+  location         : "seoul, Korea"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:nchime@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      url: "https://chkwak-devops.github.io"
+      # - label: "Twitter"
+      #   icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/neochime"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      url: "https://github.com/chkwak-devops"
+#    - label: "Instagram"
+      #icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    # - label: "Twitter"
+     # icon: "fab fa-fw fa-twitter-square"
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/neochime"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/chkwak-devops"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
+      url: "https://github.com/chkwak-devops"
+   # - label: "Bitbucket"
+   #   icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    # - label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
       # url:
 
 
