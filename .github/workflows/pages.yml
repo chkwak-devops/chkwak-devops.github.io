@@ -1,5 +1,6 @@
 # Inspired from https://github.com/actions/starter-workflows/blob/main/pages/nextjs.yml
 name: GitHub Pages
+run-name: Runs Page Generation 🚀
 
 on:
   push:
@@ -46,7 +47,7 @@ jobs:
   # Deployment job
   deploy:
     environment:
-      name: github-pages
+      name: blog
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
