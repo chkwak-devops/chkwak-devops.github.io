@@ -1,6 +1,6 @@
 # Inspired from https://github.com/actions/starter-workflows/blob/main/pages/nextjs.yml
 name: GitHub Pages
-run-name: Runs Page Generation 🚀
+# run-name: Runs Page Generation 🚀
 
 on:
   push:
