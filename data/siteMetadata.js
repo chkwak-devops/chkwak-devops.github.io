@@ -2,8 +2,7 @@
 const siteMetadata = {
   title: 'Next.js Starter Blog',
   author: 'Tails Azimuth',
-  headerTitle: process.env.BLOG_TITLE ? process.env.BLOG_TITLE : process.env.NEXT_PUBLIC_BLOG_TITLE,
-  // headerTitle: "Tailwind Blog",
+  headerTitle: "Tailwind Blog",
   description: 'A blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light 
